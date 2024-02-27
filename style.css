@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto;
+    background-color: #F5F5DC;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    background-color: #004225;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 12px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    margin: 0 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero {
+    display: flex;
+    padding: 0px;
+    height: 100vh;
+}
+
+.hero-image {
+    max-width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+#hero article {
+    width: 70%;
+    height: auto;
+    padding: 0px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    background-color: white;
+}
+
+#hero h1 {
+    font-size: 54px;
+}
+
+#about {
+    padding: 64px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about {
+    width: 40%
+}
+
+.about h2 {
+    font-size: 32px;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about-image {
+    max-height: 500px;
+}
+
+.text-accent {
+    color: #FFB000;
+}
+
+#menu {
+    background-color: white;
+}
