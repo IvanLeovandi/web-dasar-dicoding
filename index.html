@@ -22,9 +22,6 @@
                 <li>
                     <a href="#menu">Menu</a>
                 </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
             </ul>
         </nav>
     </header>
@@ -45,25 +42,85 @@
                 <h2>
                     About Restoran
                 </h2>
-                <img src="assets/img/about.jpg" alt="about" class="about-image">
+                <div class="slide-container">
+                    <div class="slideshow fade">
+                        <img src="assets/img/about.jpg" alt="about" class="about-image">
+                    </div>
+                    <div class="slideshow fade">
+                        <img src="assets/img/about-1.jpg" alt="about" class="about-image">
+                    </div>
+                    <div class="slideshow fade">
+                        <img src="assets/img/about-2.jpg" alt="about" class="about-image">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam fugiat iste, dolores quisquam, ea sed consequatur id suscipit impedit temporibus tempore excepturi deserunt. Dignissimos deleniti accusamus odit perferendis libero placeat omnis repudiandae culpa sit, dicta incidunt sequi praesentium, ducimus odio expedita distinctio, provident consectetur mollitia amet itaque numquam ratione natus?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam fugiat iste, dolores quisquam, ea sed consequatur id suscipit impedit temporibus tempore excepturi deserunt. Dignissimos deleniti accusamus odit perferendis libero placeat omnis repudiandae culpa sit, dicta incidunt sequi praesentium, ducimus odio expedita distinctio, provident consectetur mollitia amet itaque numquam ratione natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eligendi sapiente obcaecati molestias eveniet atque, omnis perferendis dolorum non animi incidunt! Nobis soluta delectus quo vero nisi eum suscipit distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium atque fugit nisi hic laudantium aliquam error?
                 </p>
             </div>
         </section>
         <section id="menu">
             <h2>Our Menu</h2>
-            <div class="menu-content">
-                <div>
-                    <img src="" alt="">
-                    <h6>Nasi Goreng</h6>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quo quia aliquam, animi nemo atque recusandae qui tempore accusamus veniam.</p>
+            <div class="menu">
+                <div class="menu-content">
+                    <div class="img-wrapper">
+                        <img src="assets/img/nasi-goreng.jpg" alt="" class="menu-img">
+                    </div>
+                    <h5 class="menu-title">Nasi Goreng</h5>
+                    <p class="menu-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quo quia aliquam, animi nemo atque recusandae qui tempore accusamus veniam.</p>
+                </div>
+                <div class="menu-content">
+                    <div class="img-wrapper">
+                        <img src="assets/img/soto.jpg" alt="" class="menu-img">
+                    </div>
+                    <h5 class="menu-title">Soto</h5>
+                    <p class="menu-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quo quia aliquam, animi nemo atque recusandae qui tempore accusamus veniam.</p>
+                </div>
+                <div class="menu-content">
+                    <div class="img-wrapper">
+                        <img src="assets/img/gudeg.jpg" alt="" class="menu-img">
+                    </div>
+                    <h5 class="menu-title">Gudeg</h5>
+                    <p class="menu-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quo quia aliquam, animi nemo atque recusandae qui tempore accusamus veniam.</p>
+                </div>
+                <div class="menu-content">
+                    <div class="img-wrapper">
+                        <img src="assets/img/salad.jpg" alt="" class="menu-img">
+                    </div>
+                    <h5 class="menu-title">Salad</h5>
+                    <p class="menu-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quo quia aliquam, animi nemo atque recusandae qui tempore accusamus veniam.</p>
+                </div>
+                <div class="menu-content">
+                    <div class="img-wrapper">
+                        <img src="assets/img/steak.jpg" alt="" class="menu-img">
+                    </div>
+                    <h5 class="menu-title">Steak</h5>
+                    <p class="menu-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quo quia aliquam, animi nemo atque recusandae qui tempore accusamus veniam.</p>
+                </div>
+                <div class="menu-content">
+                    <div class="img-wrapper">
+                        <img src="assets/img/burger.jpg" alt="" class="menu-img">
+                    </div>
+                    <h5 class="menu-title">Burger</h5>
+                    <p class="menu-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quo quia aliquam, animi nemo atque recusandae qui tempore accusamus veniam.</p>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-
+        <p>&copy; 2024 Restoran | All Rights Reserved </p>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
